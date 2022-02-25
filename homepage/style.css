@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper {
+    width: 1170px;
+    margin: auto;
+}
+header {
+    background: url('images/japanatnight.jpeg');
+    height: 100vh;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+}
+.nav-area {
+    float: center;
+    text-align: center;
+    list-style: none;
+    margin-top: -16px;
+}
+.nav-area li{
+    display: inline-block;
+}
+.nav-area li a {
+    color: rgba(248, 162, 64, 0.829);
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: 'Times New Roman', 'sans-serif';
+    font-size: 18px;
+}
+.nav-area li a:hover {
+    background: #fff; 
+    color: rgba(0, 0, 0, 0.856);
+}
+.logo img {
+    width: 150px;
+    float: left;
+    height: 60px;
+    border-radius: 5px;
+}.welcome-text {
+    position: relative;
+    color:rgb(221, 233, 118);
+    width: 600px;
+    height: 300px;
+    margin: 15% 30%;
+    text-align: center;
+}
+.welcome-text h1 {
+     text-align: center
+     color: #fff;
+     text-transform: uppercase;
+     font-size: 60px;
+}
